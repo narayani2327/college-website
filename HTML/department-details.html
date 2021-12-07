@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Exo+2:ital,wght@1,600&family=Lobster&family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e571ca48b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="icon" href="../image/nie logo.png">
+    <title>Department Details</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="../image/2021_NIE_Logo.jpg" height="60px" alt="NIE Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse drop" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="index.html" role="button" aria-expanded="false">About Us</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="index.html#about">Overview</a></li>
+                  <li><a class="dropdown-item" href="index.html#landmark">Landmarks</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./admission.html">Admissions</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./admission.html">Overview</a></li>
+                  <li><a class="dropdown-item" href="./admission.html#courses">Courses Offered</a></li>
+                  <li><a class="dropdown-item" href="./admission.html#manage">Management Quota</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="./department.html" role="button" aria-expanded="false">Departments</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./department.html">Overview</a></li>
+                  <li><a class="dropdown-item" onclick="civ()">Civil</a></li>
+                  <li><a class="dropdown-item" onclick="com()">Computer Science</a></li>
+                  <li><a class="dropdown-item" onclick="eande()">Electrical & Electronics</a></li>
+                  <li><a class="dropdown-item" onclick="eandc()">Electronics & Communication</a></li>
+                  <li><a class="dropdown-item" onclick="ip()">Industrial & Production</a></li>
+                  <li><a class="dropdown-item" onclick="info()">Information Science</a></li>
+                  <li><a class="dropdown-item" onclick="mech()">Mechanical</a></li>
+                  <li><a class="dropdown-item" onclick="chem()">Chemistry</a></li>
+                  <li><a class="dropdown-item" onclick="math()">Mathematics</a></li>
+                  <li><a class="dropdown-item" onclick="phy()">Physics</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./placements.html">Placements</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./placements.html#company">Companies</a></li>
+                  <li><a class="dropdown-item" href="./placements.html#placementHighlight">Highlights</a></li>
+                  <li><a class="dropdown-item" href="./placements.html#video">Student Response</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./studentCorner.html">Student Corner</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" role="button" aria-expanded="false">Login</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./adminlogin.html" target="_blank">Admin</a></li>
+                  <li><a class="dropdown-item" href="./studentLogin.html" target="_blank">Student</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="department" id="civil">
+        <h1>Civil Engineering</h1>
+        <div class="image">
+            <img src="../image/civil1.jpeg" alt="Civil Drawing">
+            <img src="../image/civil2.jpg" alt="Civil Measurements">
+        </div>
+        <p class="depart-text">Civil Engineering (CE) was first offered as a Diploma course and later, as a Bachelor’s degree post affiliation to the University of Mysore in 1950. The first batch graduated in 1955. Over the last two decades, the department which is part of one of the best engineering colleges in India, has received support from various agencies including the Ministry of Human Resource Development (MHRD), All India Council for Technical Education (AICTE) and University Grants Commission (UGC), under their funding schemes resulting in regular modernisation of the laboratories. <br><br>
+        The department prides itself for developing some of the brightest minds — Prof N V C Swamy – Director, IIT Chennai, M L Nagaraja – Chief of New York Metro Transport Services, and C N Nagaraj became the Chief Pontiff of Adi-Chunchanagiri Mahasamsthana, one of Karnataka’s largest seats of ‘dharma’. <br><br>
+        Recently, the department notched up its facilities via World Bank-aided Technical Education Quality Improvement Programme (TEQIP) to install state-of-the-art equipment and software in 13 laboratories. The Field Hydrological Laboratory has been set up in a remote area of the Western Ghats for field research and mountain hydrology. <br><br>
+        Watch a video by a faculty member to know more about a career as a Civil Engineer, subjects to be studied, practical training, laboratory testing methods, specializations for better employability, technological advancements in the industry and more. <br><br>
+        The department also has high placement statistics with 90% of the students getting placed in various leading companies such as ATKINS, L&T, Brigade Group, TCS Ltd. etc.</p>
+        <div class="top-recruiters">
+          <div class="text"><h3>Top Recruiters</h3>
+            <a href="./placements.html"><p>Know more about placements</p></a></div>
+          <div class="images">
+            <a target="_blank" href="https://www.mercedes-benz.com/en/"><img src="../image/benz-logo.jpg" alt="Benz-logo"></a>
+            <a target="_blank" href="https://www.cisco.com/c/en_in/index.html"><img src="../image/Cisco-Logo.png" alt="cisco-logo"></a>
+            <a target="_blank" href="https://www.tcs.com/"><img src="../image/tcs-logo.png" alt="TCS-logo"></a>
+            <a target="_blank" href="https://www.accenture.com/in-en"><img src="../image/accenture-logo.png" alt="Accenture-logo"></a>
+            <a target="_blank" href="https://www.intuit.com/"><img src="../image/intuit-loso.png" alt="Intuit-logo"></a>
+          </div>
+        </div>
+    </div>
+    <div class="department" id="computer">
+      <h1>Computer Science Engineering</h1><div class="image">
+        <img src="../image/computer1.jpeg" alt="Person using laptop">
+        <img src="../image/computer2.jpg" alt="Computer lab">
+    </div>
+      <p class="depart-text">The Department of Computer Science and Engineering (CSE) was set up in 1983 with B.E. programme. Ever since the department has grown exponentially on all fronts such as infrastructure, courses and faculty. <br><br>
+      The department has Nine computer centres with around 300 computers equipped with the latest hardware, software and peripherals. The recently established state-of-the-art IBM OpenPower lab which delivers unparalleled performance for analytics, Artificial Intelligence (AI), and modern High-Performance Computer (HiPC).  The department hosts campus-wide networking facility with 10 servers (including high-end ones), Internet laboratory housing 60 computers with a dedicated leased line connectivity of 550 Mbps (wired and wireless) and a well-stocked library. <br><br>
+      Our impactful curriculum and outstanding faculty have enabled students to be placed in foremost companies such as Cisco, HP, Intuit, Microsoft R&D, Walmart, Deloitte, Dell, Morgan Stanley and several others. This academic year the highest package was INR 46.5 Lakhs/ annum. <br><br>
+      As the department is among the first two of its kind in Karnataka to be recognized as a Doctoral-level Research Centre by Visveswaraya Technological University (VTU). Qualified professors serve as research guides under whom 20 candidates have been awarded Ph.D and 20 research scholars are pursuing Ph.D. The current faculty strength is 28 which includes 6 Professors, 4 Associate Professors, 18 Assistant Professors, faculty for English, Constitution and Professional Ethics and Kannada to help non-native students. <br><br>
+      To nurture bright minds into entrepreneurship and innovation the department is chosen as an incubation centre by Karnataka Biotechnology and Information Technology Services. The department is also the recipient of a World Bank grant under Technical Education Quality Improvement Programme (TEQIP) and utilizes the funds to enhance department facilities and for faculty development.</p>
+      <div class="top-recruiters">
+        <div class="text"><h3>Top Recruiters</h3>
+          <a href=""><p>Know more about placements</p></a></div>
+        <div class="images">
+          <a target="_blank" href="https://www.infosys.com/"><img src="../image/infosys-logo.jpg" alt="Infosys-logo"></a>
+          <a target="_blank" href="https://www.jpmorganchase.com/"><img src="../image/jp-morgan-chase-logo.jpg" alt="JP-morgan Chase-logo"></a>
+          <a target="_blank" href="https://www.hp.com/in-en/home.html"><img src="../image/hp-logo.png" alt="HP-logo"></a>
+          <a target="_blank" href="https://www.larsentoubro.com/"><img src="../image/j&t-logo.png" alt="L & T-logo"></a>
+          <a target="_blank" href="https://www.cognizant.com/hp?adobe_mc_sdid=SDID%3D38EFFCB017D1592C-61E8EF5F1A9AEBC2%7CMCORGID%3D00FD3942552521970A4C98A4%40AdobeOrg%7CTS%3D1632823709&adobe_mc_ref=https%3A%2F%2Fwww.google.com%2F"><img src="../image/cognizant_Logo.jpg" alt="Cogizant-logo"></a>
+        </div>
+      </div>
+  </div>
+  <div class="department" id="ElectriElectro">
+      <h1>Electrical & Electronics Engineering</h1>
+      <div class="image">
+        <img src="../image/e&e.jpeg" alt="Circuit Building">
+        <img src="../image/e&e1.jpg" alt="Electrician">
+    </div>
+      <p class="depart-text">The Department of Electrical & Electronics Engineering established in the year 1958 with Bachelor’s degree in “Electrical & Electronics Engineering”, is one of the first few departments at The National Institute of Engineering, Mysuru. The department made a humble beginning in 1958 with only four staff members and two laboratories housed in an area of about 900 sq. mts. In the silver jubilee year of the institute in 1971, a postgraduate programme leading to master’s degree in “Power Systems” was started. In the year 1987, the department was recognized as research centre to carry out Ph.D programme. Further in the golden jubilee year of the institute in 1996, another postgraduate programme titled “Computer Applications in Industrial Drives” was started. <br><br>
+      In the year 2002, the department established a centre of excellence “Centre for Energy Management and Test Systems for Electrical Apparatus” (CEMATEA), authorized by electrical inspectorate, Government of Karnataka to carryout periodical testing of various electrical installations in industries and other organizations in and around Mysuru.  <br><br>
+      In the year 2007, the institute was awarded autonomous status for all the undergraduate and postgraduate programmes by Visvesvaraya Technological University, Belagavi, Karnataka. The department has been a continuous beneficiary of financial assistance over the years by NIE management, state and central governments. In the year 2005, under Technical Education Quality Improvement Programme-I (TEQIP-I), the department received a funding of about 0.8 Crores to upgrade the facilities of under graduate programme. Further under TEQIP-II and TEQIP-III in the years, 2012 and 2017 respectively, the department received financial assistance of 1.0 Crore and 0.6 Crores. The department over the years has established fourteen laboratories with state-of-the-art facility worth over 5 Crores. Under TEQIP-III the department has also been identified as a mentor for the department of Electrical Engineering of Rajakiya Engineering College, Banda, Uttar Pradesh. <br><br>
+      Till now more than 3000 graduates, 700 post graduates, and 25 Ph.D.’s have acquired degrees from the department. The department has produced world renowned academicians, technocrats, entrepreneurs and sportsmen. Padma Vibhushana Sri. N.R. Narayana Murthy, an iconic figure is a proud alumnus of the department. Other legendary alumni include Padmashree Sri. EAS Prasanna, Ace off spinner, Sri. Kumara Malavalli, Founder & CEO of Brocade communications, USA, Dr. Y.V. Venkatesh, former Professor, IISc Bengaluru. The bright stars include Dr. P.S. Nagendra Rao, Professor IISc Bengaluru, Dr. R. Nagaraja, MD, PRDC Bengaluru, Sri. Jay Puller, Founder and CEO, Pramathi Technologies, Sri. J.P. Nagaraj, Former Head, L&T Mysuru, Sri Siva Gopal Valluri, Former Scientist, ISRO, Dr.K. Balaraman, Director General, National Institute of Wind Energy Chennai. <br><br>
+      The department is honoured to have Sri. N.R. Narayana Murthy and Sri. Siva Gopal Valluri, proud alumni as Directors on the Board of Management of the Institute. With the blessings of the founders and financial assistance from NIE management, the departments of Electrical and Electronics Engineering and Electronics and Communications Engineering are now housed in NRN School of Electrical Sciences, which was inaugurated in the month of March 2016.  <br><br>
+      The department has a vision to become internationally recognized center of excellence imparting quality education in electrical engineering for the benefit of academia, industry and society at large.</p>
+      <div class="top-recruiters">
+        <div class="text"><h3>Top Recruiters</h3>
+          <a href="./placements.html"><p>Know more about placements</p></a></div>
+      </div>
+  </div>
+  <div class="department" id="ElectriCommun">
+    <h1>Electrical & Communication Engineering</h1>
+    <div class="image">
+        <img src="../image/e&c1.jpg" alt="Instrument">
+        <img src="../image/e&c2.jpeg" alt="Drawing">
+    </div>
+    <p class="depart-text">Since its inception in 1971, the Department of Electronics and Communication Engineering (ECE) at NIE has been at the forefront pioneering research and education in its field. The department is a trailblazer in the Internet of Things (IoT), being the first to offer an academic course on the subject strongly supported by a full-fledged laboratory set up with generous contributions from its alumni. <br><br>
+    While equipping students with a strong foundation in the basics of Electronics, Computers, Communication Engineering and Instrumentation, the department also incorporates the latest technology developments such as the Internet of Things (IoT), Network Security, Neural Networks, Artificial Intelligence, and Machine Learning in industry-relevant courses. Collaborations with leading industry players to design and deliver the curriculum, strong presence in the research field, a well-informed and published faculty, innovations encompassing integrated laboratories, use of open source tools and industry-driven projects, and internship opportunities are pathways that this NBA-accredited department creates to help you realise the future you dream of.</p>
+    <div class="top-recruiters">
+      <div class="text"><h3>Top Recruiters</h3>
+        <a href="./placements.html"><p>Know more about placements</p></a></div>
+    </div>
+  </div>
+  <div class="department" id="IndusProduc">
+    <h1>Industrial & Production Engineering</h1>
+    <div class="image">
+        <img src="../image/Ip.jpg" alt="Welding">
+        <img src="../image/ip1.jpeg" alt="Industry">
+    </div>
+    <div class="depart-text">
+        The undergraduate programme in Industrial and Production Engineering was initially introduced in 1981 in the Department of Mechanical Engineering; however,realizing the importance of Production Engineering, a separatefull-fledged Department was set up in 1985 with the primary objective of carrying out teaching and research in the board areas of production and industrial engineering with specialization in Metal Cutting, Machine Tools, CAD-CAM, Robotics, Management, Finance and Quality Control, Advanced Manufacturing Practices, Advanced Materials and their characterization and many more.The Department started the Post-Graduate programme in Production Engineering & System Technology (PEST) in the year 1987. The department has a team of dedicated teaching and technical staff and has the credit of having maximum number of Doctorates in its team. The faculty of the Department not only engage in teaching, also carry out research and have successfully supervise number of research scholars to get their Doctoral degrees. The Department has well equipped Industrial Engineering, Machine Tool and Metrology Laboratory and CAD / CAM Centre. The department has established a research laboratory for Composite Material Fabrication and Testing where number of Ph.D and M.Tech scholars are pursuing their degrees. The Department has received research funds from DST, UGC, AICTE, VGST, VTU and other funding agencies worth INR 4.8crores; also the department has received world bank aided funds to develop and modernize its laboratoriesunder Technical Education Quality Improvement Programme (TEQIP) Phase I, II and III. With these infrastructure, modern facilities and highly qualified staff, the department aims for imparting excellent technical, experimental, managerial and soft skills to its students. Both the undergraduate and post graduate programmes of the department are NBA accredited in line with outcome based education (OBE), thus maintaining global standards in teaching – learning process. <br><br>
+        In addition to providing excellent training to students in academics, the endeavor of the Department is to shape overall personality of its students. The Department has established Industrial and Production Engineers Association (IPEA) which organizes number of co-curricular and extracurricular activities. These activities include organization of Technical quiz, Paper and Poster presentation contest and many sports activities etc., throughout the year. It organizes technical talks in Emerging Technologies from experts and also industrial visits to various reputed industries for the benefit of students. It facilitates its student members ingettingindustrial internship. IPEA is also running a departmental library to its members, which has over 1000 volumes of text books.The Department has produced manyeminent engineers who are excelling in their chosen field, thus contributing to the cause of the society
+        </div>
+        <div class="top-recruiters">
+          <div class="text"><h3>Top Recruiters</h3>
+            <a href="./placements.html"><p>Know more about placements</p></a></div>
+        </div>
+    </div>
+    <div class="department" id="Information">
+        <h1>Information Science Engineering</h1>
+        <div class="image">
+            <img src="../image/is.jpeg" alt="Coding">
+            <img src="../image/is1.jpg" alt="arduino">
+        </div>
+        <div class="depart-text">
+        Information technology pervades every aspect of our lives — from personal interactions to financial transactions. Reason why it is important to have the best minds work on continuously developing the field of Information Science and Engineering. <br><br>
+        The Department of Information Science & Engineering (ISE) established in 1999 with the B.E. Programme to meet the shortage of IT Engineers, helps students develop critical, innovative, creative-thinking, problem-solving and attitudinal skills. Campus-to-Corporate programmes with technical and soft skill building training and technology updates by leading companies nurture employability while internships help them apply their learning. A blend of programme aspects, state-of-the-art computational facilities, advanced teaching and learning resources and well-qualified faculty with strong ICT sector linkages make students future-ready. <br><br>
+        Noteworthy industry collaborations include VGST (Government of Karnataka) project implementation on ‘Energy-efficient data gathering using multiple mobile elements in a wireless sensor network’ and IndSilkDB – a national database on sericulture for the Central Sericultural Research and Training Institute. MoUs with Nokia Solutions and Network India Private Limited focus on technology such as developing prototypes for products or tools ideas as well as new technology incubation projects. <br><br>
+        Students have proven their mettle in academics and extra-curricular activities with a 15,000-strong participation in college, State and National-level events. Head here for a rounded and promising engineering career.
+        </div>
+        <div class="top-recruiters">
+          <div class="text"><h3>Top Recruiters</h3>
+            <a href="./placements.html"><p>Know more about placements</p></a></div>
+        </div>
+    </div>
+    <div class="department" id="Mechanical">
+        <h1>Mechanical Engineering</h1>
+        <div class="image">
+            <img src="../image/mech.jpeg" alt="Gears">
+            <img src="../image/mech1.jpeg" alt="Car Repair">
+        </div>
+        <div class="depart-text">
+        The Department of Mechanical Engineering (ME) established in 1958 has created creditable milestones, enabled success stories for its faculty and students alike, and partnered with industry and academia to innovate for social impact. <br><br>
+        An NBA Tier-1 programme and ‘Research Centre’ recognised by the Visvesvaraya Technological University (VTU), the department has forged industry collaborations with leading automation companies such as Bosch-Rexroth, Felsomat, Fanuc, Festo, Siemens and Christiani. Its gender diversity focus has yielded internship and placement opportunities for girl students with Mercedes Benz. Its 14 well-equipped laboratories, and 8 Centres of Excellence have spawned innovations that go beyond prototypes to become real world solutions — hub for motor sports teams, turnkey projects in rainwater harvesting for Mysuru palace, and a bio-gasification plant for Mysuru zoo to name a few. MoUs with National Entrepreneurship Network (NEN) and MSME Development Institute foster entrepreneurship and business skill development. <br><br>
+        A highly-qualified and erudite faculty with several patents and publications to its credit nurture students to achieve excellence. For an exciting future on the edge of technology, this is the place to be!
+        </div>
+        <div class="top-recruiters">
+          <div class="text"><h3>Top Recruiters</h3>
+            <a href="./placements.html"><p>Know more about placements</p></a></div>
+        </div>
+    </div>
+    <div class="department" id="chemistry">
+        <h1>Chemistry</h1>
+        <div class="image">
+            <img src="../image/chem.jpg" alt="chemical table">
+            <img src="../image/chem1.jpg" alt="chemicals">
+        </div>
+        <div class="depart-text">
+            Chemistry is the study of the smallest particles that come together to form the world around us. To ensure that our technology is always advancing, we need the best chemists to constantly innovate and develop new materials that increase our technological prowess. <br><br>
+            Incepted in 1946, the Department of Chemistry, part of the umbrella Basic Sciences Department offers holistic training and a conducive environment for Undergraduate education, and research in Engineering Chemistry and related inter-disciplinary programmes. The department’s research and innovations are oriented towards mitigating risk and monitoring infrastructure and human health for a conducive environment. Innovations span polymer-based sensors for structural health monitoring, and tracking of stored water and device development to tap carbon from diesel engine vehicles supported by robust research.<br><br>
+            Industry collaborations with Triton Valves Limited and Anode Business Solutions further provide opportunities to students to progress towards creating meaningful solutions for a safer world. This department and its erudite faculty with several achievements in its portfolio can catalyse your career as a change agent.
+        </div>
+        <div class="top-recruiters">
+          <div class="text"><h3>Top Recruiters</h3>
+            <a href="./placements.html"><p>Know more about placements</p></a></div>
+        </div>
+    </div>
+    <div class="department" id="maths">
+        <h1>Mathematics</h1>
+        <div class="image">
+            <img src="../image/maths.jpeg" alt="problem solving">
+            <img src="../image/maths1.jpg" alt="scientific calculator">
+        </div>
+        <div class="depart-text"> 
+        Mathematics is considered the language of the universe. It is the cornerstone of science and technology. In order to continue progressing toward a promising technological future. <br><br>
+        Department provides students with the mathematical foundation required to analyze all engineering problems. Department faculty involved in teaching undergraduate courses through regular and elective subjects, PG courses like M.Tech and MCA.
+        </div>
+        <div class="top-recruiters">
+          <div class="text"><h3>Top Recruiters</h3>
+            <a href="./placements.html"><p>Know more about placements</p></a></div>
+        </div>
+    </div>
+    <div class="department" id="physics">
+        <h1>Physics</h1>
+        <div class="image">
+            <img src="../image/phy.jpg" alt="pendulum">
+            <img src="../image/phy1.jpeg" alt="formulae">
+        </div>
+        <div class="depart-text">
+            The department of Physics is one of the oldest and established departments  since  1946. The department has contributed towards cause and growth of the college by imparting quality education and carrying out sucessful research in novel frontiers of basic and applied science. Currently the department is functioning with faculty with doctrates in Physics and three technical staff. The research interest of the faculty are in the fields of X-ray crystallography and  Polymer composites. The Department is an established research center under Visveswaraya Technological University with  approved research guides, presently guiding  research scholars.
+        </div>
+        <div class="top-recruiters">
+          <div class="text"><h3>Top Recruiters</h3>
+            <a href="./placements.html"><p>know more about placements</p></a></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="Social">
+          <h3>Social Media</h3>
+          <div class="icons">
+            <div class="icon"><a href="https://www.linkedin.com/school/nie-mysuru/?viewAsMember=true" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+            <div class="icon"><a href="https://www.instagram.com/NIEMYSURU/" target="_blank"><i class="fab fa-instagram"></i></a></div>
+            <div class="icon"><a href="https://www.facebook.com/NIEMYSURU" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+          </div>
+        </div>
+        <div class="college-info">
+          <p class="copyright">&#169 Narayani</p>
+          <p class="name">THE NATIONAL INSTITUTE OF ENGINEERING</p>
+          <p class="address">Manandavadi Road Mysuru – 570008 Karnataka</p>
+          <p class="contact">TEL: (+91) 821 2480475,(+91) 821 4004900</p>
+          <p class="email">info@nie.ac.in</p>
+          <br><br>
+        </div>
+        <div class="map">
+          <p class="copyright">Location</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.4710280027734!2d76.6389580141288!3d12.284034032916638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf65561e102919%3A0xf947b18cc5ad3d88!2sThe%20National%20Institute%20of%20Engineering!5e0!3m2!1sen!2sin!4v1632659257813!5m2!1sen!2sin" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="../JavaScript/index.js"></script>
+</html>

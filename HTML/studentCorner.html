@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="icon" href="../image/nie logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Exo+2:ital,wght@1,600&family=Lobster&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e571ca48b2.js" crossorigin="anonymous"></script>
+    <title>Student Corner</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="../image/2021_NIE_Logo.jpg" height="60px" alt="NIE Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse drop" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link"  style="color: #FFE8FF;" href="index.html" role="button" aria-expanded="false">About Us</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="index.html#about">Overview</a></li>
+                  <li><a class="dropdown-item" href="index.html#landmark">Landmarks</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #FFE8FF;" href="./admission.html">Admissions</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./admission.html">Overview</a></li>
+                  <li><a class="dropdown-item" href="./admission.html#courses">Courses Offered</a></li>
+                  <li><a class="dropdown-item" href="./admission.html#manage">Management Quota</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="./department.html" style="color: #FFE8FF;" role="button" aria-expanded="false">Departments</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./department.html">Overview</a></li>
+                  <li><a class="dropdown-item" href="./department-details.html#civil">Civil</a></li>
+                  <li><a class="dropdown-item" href="./department-details.html#computer">Computer Science</a></li>
+                  <li><a class="dropdown-item" href="./department-details.html#ElectriElectro">Electrical & Electronics</a></li>
+                  <li><a class="dropdown-item" href="./department-details.html#ElectriCommun">Electronics & Communication</a></li>
+                  <li><a class="dropdown-item" href="./department-details.html#IndusProduc">Industrial & Production</a></li>
+                  <li><a class="dropdown-item" href="./department-details.html#Information">Information Science</a></li>
+                  <li><a class="dropdown-item" href="./department-details.html#Mechanical">Mechanical</a></li>
+                  <li><a class="dropdown-item" href="./department-details.html#chemistry">Chemistry</a></li>
+                  <li><a class="dropdown-item" href="./department-details.html#maths">Mathematics</a></li>
+                  <li><a class="dropdown-item" href="./department-details.html#physics">Physics</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./placements.html" style="color: #FFE8FF;">Placements</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./placements.html#company">Companies</a></li>
+                  <li><a class="dropdown-item" href="./placements.html#placementHighlight">Highlights</a></li>
+                  <li><a class="dropdown-item" href="./placements.html#video">Student Response</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./studentCorner.html" style="color: #FFE8FF;">Student Corner</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" role="button" aria-expanded="false" style="color: #FFE8FF;">Login</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./adminlogin.html" target="_blank">Admin</a></li>
+                  <li><a class="dropdown-item" href="./studentLogin.html" target="_blank">Student</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="student">
+        <p>Student Corner</p>
+        <div class="grid">
+            <button class="span-two" onclick="acad()">Academic Regulation</button>
+            <button><a href="../files/Malpractice.pdf" target="_blank">Malpractice</a></button>
+            <button><a href="../files/Code-of-Conduct-Handbook.pdf" target="_blank">Code Of Conduct</a></button>
+            <button onclick="apply()">Application Forms</button>
+            <button onclick="hostel()" class="span-two">Hostel Rules And Regulations</button>
+            </tr>
+        </div>
+        <div class="academicRegulation">
+            <h3>Academic Regulations</h3>
+            <ul>
+                <li><a href="../files/ug/UG-_2020-21-1.pdf" target="_blank">UG 2020-2021</a></li>
+                <li><a href="../files/pg/PG202-2021.pdf" target="_blank">PG 2020-2021</a></li>
+                <li><a href="../files/ug/UG-2019-20.pdf" target="_blank">UG 2019-2020</a></li>
+                <li><a href="" target="_blank">PG 2019-2020</a></li>
+                <li><a href="../files/ug/UG-2018-19.pdf" target="_blank">UG 2018-2019</a></li>
+                <li><a href="../files/pg/PG-2018-19.pdf" target="_blank">PG 2018-2019</a></li>
+                <li><a href="../files/ug/UG-2017-18.pdf" target="_blank">UG 2017-2018</a></li>
+                <li><a href="" target="_blank">PG 2017-2018</a></li>
+            </ul>
+        </div>
+        <div class="hostel">
+            <p>Hostel Rules And Regulations</p>
+            <ol>
+                <li>Residents have to be back in the hostel before 8.30 p.m.</li>
+                <li>Residents have to take written permission from the Warden/Manager while going home/going to out of the city/not returning to hostel. They have to enter all the relevent details and purpose in the Register/Form maintained at the hostel office.</li>
+                <li>All residents are required to always carry their valid Identity Cards issued to them by the Institute.</li>
+                <li>Smoking, consuming alcohol, playing cards, intimidation or violence, willful damage to property, cooking in room, Keeping unauthorized electronic appliance and playing music loudly in the hostel permises is strictly prohibited.</li>
+                <li>The rooms, common areas and surroundings of the hostel should be kept clean and hygienic. Notices shall not be pasted on walls and walls shall not be scribbled on. Any violation will be dealt with appropriate fine.</li>
+                <li>Residents should not participate in any anti-national, antisocial or undesirable activity in or outside the campus.</li>
+                <li>All residents should be properly  dressed  while going to common room,  dining hall  or hostel office/functions, failing to which fine  will be imposed / disciplinary action will be taken.</li>
+                <li>Residents should bring to the notice of the caretaker any pending maintenance work (Civil, Carpentry, Electrical, Sanitation) to be carried out in rooms, corridors, toilets or other areas in hostel premises.</li>
+                <li>Students who get detained are required to vacate the hostel immediately.</li>
+                <li>Inmates have to take care of their valuables by keeping them under lock and key. Hostel staff will no way be held responsible for missing valuables.</li>
+                <li>Playing games in the corridor is prohibited. Watching TV after 11.p.m. is prohibited.</li>
+                <li>Misbehaving with inmates/hostel authorities is strictly prohibited.</li>
+                <li>Bringing/Cooking food inside the hostel permises is not allowed.</li>
+                <li>Availing room service or taking food or mess utensils to the room will attract a fine and disciplinary action.</li>
+                <li>Inmates should not entertain outsiders/friends inside the hostel permises.
+                <li>Hostel fees should be paid within the stipulated time.</li>
+                <li>Rooms should handed over to the hostel authorities at the end of each even semester.</li>
+                <li>Allotment of rooms is left to discretion of the warden.</li>
+                <li>When the students go out of their room they should switch off all the electrical / electronic appliances, and keep it locked. Violation will attract suitable penalty and disciplinary action as decided by authorities.</li>
+                <li>Unauthorized use of electrical appliances such as immersion heaters, electric stove / heaters, induction cookware, A.C and Refrigerators are not allowed in the rooms. Such appliances, if found will be confiscated and a fine will also be imposed.</li>
+                <li>Any student who is found to be indulging in undesirable activities such as ragging, physical assault, damage to property, causing inconvenience to other inmates, non-compliance of any of the conduct rules, or violation of any other rule defined in this manual will be liable to the following disciplinary action
+                    <ul>
+                        <li>Expulsion from the hostel.</li>
+                        <li>The cost of damage will be fully recovered from him/her together with penalty.</li>
+                        <li>He/she will also be fined commensurate with the offence committed.</li>
+                        <li>The privilege of appearing for campus interviews will be denied, when he/she reaches the final year.</li>
+                        <li>No recommendations will be given to him/her for studies abroad.</li>
+                        <li>Rustication from the Institute.</li>
+                    </ul>
+                </li>
+                <li>Establisment charges for the complete year will be forfeited in case the boarder leaves the hostel in the middle of the academic year.</li>
+                <li>Students should adhere to the mess timings of the hostel.</li>
+                <li>Inmates found violating any of the above regulations will have to face serious consequences.</li>
+            </ol>
+            The decision of the Chairman/Warden/Hostel committee is final.
+            <h3>DISCLAIMER</h3>
+            The information provided on hostels have been framed by concerned authorities of the Institute and are subject to alteration/modification/review at the exclusive discretion of the Board of Management of the Institute/ Hostel Committee, either in part or whole, at any time hereafter. Such amendments, alterations, modification, additions, deletion, if any shall be binding from the date of their notification by the Board of Management and immediately upon publication of the same on the college website.
+        </div>
+        <div class="application">
+            <h3>Application Forms</h3>
+            <ol>
+                <li>Duplicate ID Application Form</li>
+                <li><a href="../files/Wi-Fi-Application.pdf" target="_blank">Wifi Application Form</a></li>
+                <li><a href="../files/GRIEVANCE-APPLICATION.pdf" target="_blank">Results - Grievance Application Form</a></li>
+                <li><a href="../files/Transcript-Application.pdf" target="_blank">Transcript Application Form</a></li>
+                <li><a href="../files/PAPER-SEEING-APPLICATION.pdf" target="_blank">Paper Seeing Application Form</a></li>
+                <li><a href="../files/Summer-Term-Application.pdf" target="_blank">Summer Term Application Form</a></li>
+            </ol>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="Social">
+          <h3>Social Media</h3>
+          <div class="icons">
+            <div class="icon"><a href="https://www.linkedin.com/school/nie-mysuru/?viewAsMember=true" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+            <div class="icon"><a href="https://www.instagram.com/NIEMYSURU/" target="_blank"><i class="fab fa-instagram"></i></a></div>
+            <div class="icon"><a href="https://www.facebook.com/NIEMYSURU" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+          </div>
+        </div>
+        <div class="college-info">
+          <p class="copyright">&#169 Narayani</p>
+          <p class="name">THE NATIONAL INSTITUTE OF ENGINEERING</p>
+          <p class="address">Manandavadi Road Mysuru – 570008 Karnataka</p>
+          <p class="contact">TEL: (+91) 821 2480475,(+91) 821 4004900</p>
+          <p class="email">info@nie.ac.in</p>
+          <br><br>
+        </div>
+        <div class="map">
+          <p class="copyright">Location</p>
+          <iframe class="mapdis" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.4710280027734!2d76.6389580141288!3d12.284034032916638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf65561e102919%3A0xf947b18cc5ad3d88!2sThe%20National%20Institute%20of%20Engineering!5e0!3m2!1sen!2sin!4v1632659257813!5m2!1sen!2sin" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="../JavaScript/index.js"></script>
+</html>

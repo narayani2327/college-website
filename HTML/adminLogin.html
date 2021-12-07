@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../image/nie logo.png">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Admin Login</title>
+    <style>
+        body{
+            background-color: #432553;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <div class="text">
+            <a href="./index.html"><img src="../image/nie logo.png" alt="logo"></a>
+            <h2 style="margin-top: 15px;">Admin Login</h2>
+        </div>
+        <!-- action="http://localhost:8000/files/studentlogin.php" "C:\PHP\files\studentLogin.php"-->
+        <form action="http://localhost:8000/files/adminLogin.php" name="form" method="POST">
+            <input type="text" name="username" id="user" placeholder="USENAME" required>
+            <input type="password" name="password" id="pass" placeholder="PASSWORD" required>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
